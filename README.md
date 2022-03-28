@@ -1,12 +1,12 @@
 # ellipsoid-fitting-with-CAS
 
 The synthetic dataset consists of a Gaussian-noise dataset and an outlier dataset. The name rule for files is as following:
-1) The first character "G" represents "Gaussian-noise instance" and the first character "R" represents "outlier instance". 
+1) The first character "G" represents "an instance of Gaussian-noise dataset" and the first character "R" represents "an instance of outlier dataset". 
 2) The next two numbers (separated by the "num") represent noise level and idx of instance, respectively. 
 
 Examples：
-1) The file with the name of "G0.5num4.txt" represents that the instance contains the Gaussian noise of σ=0.25 and the instance idx is 4. 
-2) The file with the name of "R20num6.txt" represents that the instance contains the outliers of 20 percent and the instance idx is 6.
+1) The file with the name of "G0.5num4.txt" represents the instance containing the Gaussian noise of σ=0.25. The instance idx is 4. 
+2) The file with the name of "R20num6.txt" represents the instance containing the outliers of 20 percent. The instance idx is 6.
 3) The file with the name of "PointCloud_Standard.txt" represents the groundtruth for the synthetic dataset.
 
 ----------------------------------------------------------------------------
