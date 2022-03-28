@@ -7,7 +7,7 @@ The synthetic dataset consists of a Gaussian-noise dataset and an outlier datase
 Examples：
 1) The file with the name of "G0.5num4.txt" represents the instance containing the Gaussian noise of σ=0.25. The instance idx is 4. 
 2) The file with the name of "R20num6.txt" represents the instance containing the outliers of 20 percent. The instance idx is 6.
-3) The file with the name of "PointCloud_Standard.txt" represents the groundtruth for the synthetic dataset.
+3) The file with the name of "PointCloud_Standard.txt" represents the groundtruth.
 
 ----------------------------------------------------------------------------
 The paper that proposes Ellipsoid fitting with CAS is under review. For prevention of copyright disputes, the MATLAB code and correpsonding test dataset will be normally available after this paper is published. Even so, the Matlab code is still attached and it is only for better peer-review. 
